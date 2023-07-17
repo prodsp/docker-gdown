@@ -13,9 +13,9 @@ docker build docker-gdown -t gdown
 ## Usage
 ### From Windows cmd
 ```console
-docker run -i -t -v %cd%:/data gdown https://drive.google.com/file/d/0B1MVW1mFO2zmZHVRWEQ3Rkc3SVE
+docker run -i -t -v %cd%:/data gdown https://drive.google.com/file/d/0B1MVW1mFO2zmdGhyaUJESWROQkE
 ```
 ### From linux terminal
 ```console
-docker run -i -t -v "$PWD":/data gdown https://drive.google.com/file/d/0B1MVW1mFO2zmZHVRWEQ3Rkc3SVE
+docker run -i -t -v "$PWD":/data gdown https://drive.google.com/file/d/0B1MVW1mFO2zmdGhyaUJESWROQkE
 ```
